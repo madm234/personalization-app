@@ -24,10 +24,15 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 15px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f2a417,
+    #f2a417 15px,
+    #242424 15px,
+    #242424 30px
+  );
+  overflow: hidden;
 }
 
 h1 {
